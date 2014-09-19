@@ -16,6 +16,10 @@ gem 'haml-rails'
 gem 'pg'
 gem 'pundit'
 gem 'therubyracer', :platform=>:ruby
+
+# Admin panel
+gem 'activeadmin', github: 'activeadmin'
+
 group :development do
   gem 'better_errors'
   gem 'binding_of_caller', :platforms=>[:mri_21]
